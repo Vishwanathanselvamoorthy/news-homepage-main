@@ -7,9 +7,9 @@
   font-family: Inter;
 }
 .main-container {
-  height: 100vh;
+  height: 100%;
   padding: 30px;
-  /* position: relative; */
+  position: relative;
 }
 .main-container .blank-layer {
   background-color: black;
