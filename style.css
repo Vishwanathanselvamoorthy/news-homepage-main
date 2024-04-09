@@ -20,7 +20,7 @@
   background-color: aqua;
   width: 70%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
 }
