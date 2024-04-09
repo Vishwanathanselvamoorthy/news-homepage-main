@@ -131,7 +131,8 @@
 .main-container .container-3 .box-1 p,
 .box-2 p,
 .box-3 p {
-  color: hsl(233, 8%, 79%);
+  /* color: hsl(233, 8%, 79%); */
+  color: hsl(236, 13%, 42%);
   font-size: 15px;
 }
 .hide-side-bar {
