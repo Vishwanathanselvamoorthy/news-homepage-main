@@ -34,19 +34,23 @@
     budgets.  -->
 
     <div class="main-container">
-      <div class="blank"></div>
+      <div class="blank hidden-class"></div>
       <div class="navbar-container">
         <img src="./assets/images/logo.svg" />
         <img class="open-btn" src="./assets/images/icon-menu.svg" />
-        <!-- <ul>
-          <li>Home</li>
-          <li>New</li>
-          <li>Popular</li>
-          <li>Trending</li>
-          <li>Categories</li>
-        </ul> -->
+        <div class="navbar-content hidden-class">
+          <ul>
+            <li>Home</li>
+            <li>New</li>
+            <li>Popular</li>
+            <li>Trending</li>
+            <li>Categories</li>
+          </ul>
+
+        </div>
+       
       </div>
-      <div class="sidebar-container hide-side-bar">
+      <div class="sidebar-container hidden-class">
         <img class="close-btn" src="./assets/images/icon-menu-close.svg" />
         <ul>
           <li>Home</li>
@@ -58,12 +62,13 @@
       </div>
       <div class="flex-container">
         <div class="container-1">
-          <img class="main-img" src="./assets/images/image-web-3-desktop.jpg" />
+          <img class="main-img desktop" src="./assets/images/image-web-3-desktop.jpg" />
+          <img class="main-img mobile" src="./assets/images/image-web-3-mobile.jpg" />
           <div class="main-flex">
-            <div>
+            <div class="main-head">
               <h1>The Bright Future of Web 3.0?</h1>
             </div>
-            <div>
+            <div class="main-para">
               <p>
               We dive into the next evolution of the web that claims to put the
               power of the platforms back into the hands of the people. But is it

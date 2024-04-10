@@ -2,24 +2,21 @@ const sidebar = document.querySelector(".sidebar-container");
 const closeSideBar = document.querySelector(".close-btn");
 const openSideBar = document.querySelector(".open-btn");
 const blankSpaceContainer = document.querySelector(".blank");
+const navbarContent = document.querySelector(".navbar-content");
 
-document.addEventListener("DOMContentLoaded", function () {
-  let mainImg = document.querySelector(".main-img");
-
-  if (window.innerWidth <= 768) {
-    mainImg.src = "./assets/images/image-web-3-mobile.jpg";
-  } else if (window.innerWidth >= 1024) {
-    mainImg.src = "./assets/images/image-web-3-desktop.jpg";
-  }
-});
+// if (window.innerWidth >= 1024) {
+//   sidebar.classList.add("hidden-class");
+//   openSideBar.classList.add("hidden-class");
+//   navbarContent.classList.remove("hidden-class");
+// }
 
 closeSideBar.addEventListener("click", (e) => {
   e.preventDefault();
-  sidebar.classList.add("hide-side-bar");
-  blankSpaceContainer.classList.remove("blank-layer");
+  sidebar.classList.add("hidden-class");
+  blankSpaceContainer.classList.add("hidden-class");
 });
 openSideBar.addEventListener("click", (e) => {
   e.preventDefault();
-  sidebar.classList.remove("hide-side-bar");
-  blankSpaceContainer.classList.add("blank-layer");
+  sidebar.classList.remove("hidden-class");
+  blankSpaceContainer.classList.remove("hidden-class");
 });
