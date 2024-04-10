@@ -17,7 +17,9 @@ NewsGrid is a dynamic news homepage designed to deliver the latest updates and t
 - CSS 🎨
 - JAVASCRIPT 🚀
 
- [NewsGrid](https://news-homepage-main-eosin.vercel.app/)
+## Project Link 🔗
+
+ [NewsGrid 📰](https://news-homepage-main-eosin.vercel.app/)
 
 ## Screenshots 📸
 
